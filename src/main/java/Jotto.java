@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Jotto {
 
         private static final int WORD_SIZE = 5;
-        private static final boolean DEBUG = true;
+        private static final boolean DEBUG = false;
         private final ArrayList<String> wordList = new ArrayList<>();
         private final ArrayList<String> playGuesses = new ArrayList<>();
         private final ArrayList<String> playWords = new ArrayList<>();
