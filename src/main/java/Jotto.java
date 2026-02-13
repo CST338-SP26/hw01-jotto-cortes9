@@ -218,7 +218,7 @@ public class Jotto {
                 return result;
         }
 
-        // Gueses
+        // Guesses
         public ArrayList<String> showPlayerGuesses() {
 
                 if (playGuesses.size() == 0) {
