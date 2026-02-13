@@ -13,12 +13,12 @@ public class Jotto {
 
         private static final int WORD_SIZE = 5;
         private static final boolean DEBUG = true;
-        private ArrayList<String> wordList = new ArrayList<>();
-        private ArrayList<String> playGuesses = new ArrayList<>();
-        private ArrayList<String> playWords = new ArrayList<>();
+        private final ArrayList<String> wordList = new ArrayList<>();
+        private final ArrayList<String> playGuesses = new ArrayList<>();
+        private final ArrayList<String> playWords = new ArrayList<>();
 
         private String currentWord = "";
-        private String filename;
+        private final String filename;
         private int score = 0;
 
         public Jotto(String filename) {
@@ -299,7 +299,7 @@ public class Jotto {
         }
 
 
-        public static void main(String[] args) {
+        static void main(String[] args) {
                 Jotto game = new Jotto("wordList.txt");
                 game.play();
         }
