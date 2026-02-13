@@ -71,7 +71,7 @@ public class Jotto {
 
                 playWords.add(currentWord);
 
-                
+                // ✅ DEBUG now prints ONLY the word
                 if (DEBUG) {
                         System.out.println(currentWord);
                 }
